@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Merriweather');
+
+*{
+	box-sizing: border-box;
+}
+
+
+.container{
+	width:90%;
+	margin:10rem auto;
+}
+
+
+header{
+	width:100%;
+	font-size:2rem;
+	background-color: #2F33C7;
+	text-align:center;
+	padding:2rem;
+	text-shadow: 2px 2px 4px #000;
+	color:#fff;
+	font-weight:bold;
+	font-family: 'Gloria Hallelujah', cursive;
+	position:fixed;
+	top:0;
+}
+
+aside img{
+	width:100%;
+	border-radius: 50%;
+}
+
+
+section{
+	margin-left:10%;
+}
+
+section p{
+	line-height: 1.7rem;
+	font-family: 'Merriweather', serif;
+	margin-bottom:2rem;
+}
+
+section,aside{
+	float: left;
+}
+
+aside{
+width:25%;
+}
+
+section{
+	width:65%;
+	
+}
+
+
+@media screen and (max-width: 860px){
+
+	section,aside{
+	float:none;
+	width:100%;
+   }
+
+   section{
+   	margin:0px;
+   	margin-top:2rem;
+   }
+
+
+   aside img{
+	width:40%;
+	border-radius:0;
+	display: block;
+	margin:0 auto;
+
+}
+
+
+
+}
+
+
+@media screen and (max-width: 380px){
+
+header>h1{
+	font-size:1.4rem;
+}
+
+}
